@@ -33,3 +33,4 @@ plugins {
 rootProject.name = "Greek Calculator"
 
 include(":app")
+include(":windows-app")
