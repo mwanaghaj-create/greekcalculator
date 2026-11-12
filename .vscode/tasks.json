@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Assemble Android debug APK",
+			"type": "shell",
+			"command": "./gradlew.bat",
+			"args": [
+				"assembleDebug"
+			],
+			"options": {
+				"env": {
+					"JAVA_HOME": "C:\\Program Files\\Android\\Android Studio\\jbr",
+					"ANDROID_HOME": "${env:LOCALAPPDATA}\\Android\\Sdk",
+					"ANDROID_SDK_ROOT": "${env:LOCALAPPDATA}\\Android\\Sdk"
+				}
+			},
+			"isBackground": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"group": "build"
+		}
+	]
+}
